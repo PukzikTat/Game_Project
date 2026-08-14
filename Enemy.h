@@ -12,6 +12,7 @@ public:
 
     void takeDamage(int damage);
     bool isAlive() const;
+    int dropXP() const;
 
     int getHealth() const;
     int getAttack() const;
