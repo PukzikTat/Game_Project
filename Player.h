@@ -18,7 +18,9 @@ public:
     void takeDamage(int damage);
     void heal(int amount);
     void attackEnemy();
-
+    void gainXP(int amount);
+    void displayStats() const;
+    void levelUp();
     bool isAlive() const;
 
     int getHealth() const;
